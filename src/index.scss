@@ -1,0 +1,44 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+.container{
+  width: 1000px;
+  margin: auto;
+  margin-top: 20px;
+  .flex_div{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    gap: 15px;
+    margin-top: 20px;
+   
+  }
+  center{
+    font-size: 50px;
+    font-weight: bold;
+  }
+}
+
+.box{
+    background-color: #F0F0F0;
+     width: 322px;
+     height: 161px;
+     font-size: 14px;
+    border: 1px solid #007FFF;
+    border-radius: 10px;
+    .div-pad{
+     padding: 15px;
+     .checkbox{
+     display: flex;
+     justify-content: end;
+     margin: 50px 0px;
+     align-items: center;
+     input[type=checkbox] {
+      transform: scale(1.5);
+  }
+    }
+    }
+    }
